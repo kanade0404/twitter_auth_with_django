@@ -85,9 +85,9 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pseiya_db',
-        'USER': 'p_seiya',
-        'PASSWORD': 'psql_seiya',
+        'NAME': '[DBNAME]',
+        'USER': '[DBUSER]',
+        'PASSWORD': '[PASSWORD]',
         'HOST': '127.0.0.1',
         'POST': ''
     }
