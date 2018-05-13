@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <title>会員トップ</title>
+</head>
+<body>
+  <div>
+    <h1>会員トップ</h1>
+    <h2>{{ user }}</h2>
+    <div>
+      <p>UserId:{{ user.access_token.user_id }}</p>
+      <p>OAuthTokenSecret:{{ user.access_token.oauth_token_secret }}</p>
+      <p>OAuthToken:{{ user.access_token.oauth_token }}</p>
+      <p>ScreenName:{{ user.access_token.screen_name }}</p>
+    </div>
+    <h3>hoge:{{ hoge }}</h3>
+    <p>
+      <a href="/myapp/logout"><button type="button" >ログアウト</button></a>
+    </p>
+  </div>
+</body>
+</html>
